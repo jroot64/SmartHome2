@@ -1,0 +1,108 @@
+<modul>
+
+    <name>actuator</name>
+    <description>manages the grouping functions</description>
+    <targetClass>ActuatorWrapper.php</targetClass>
+
+    <settings>
+        <restriction>
+            <type>sd</type>
+            <description>shows devicecode</description>
+        </restriction>
+        <restriction>
+            <type>sh</type>
+            <description>shows the housecode of the actuator</description>
+        </restriction>
+        <restriction>
+            <type>cs</type>
+            <description>switching the actuator on and off</description>
+        </restriction>
+        <restriction>
+            <type>cr</type>
+            <description>changing the romm of the actuator</description>
+        </restriction>
+        <restriction>
+            <type>cg</type>
+            <description>changing the group of the actuator</description>
+        </restriction>
+        <restriction>
+            <type>ca</type>
+            <description>changing the actuator from active inactive</description>
+        </restriction>
+        <restriction>
+            <type>da</type>
+            <description>delete the actuator</description>
+        </restriction>
+        <restriction>
+            <type>aa</type>
+            <description>adding a group</description>
+        </restriction>
+        <restriction>
+            <type>size</type>
+            <description>defining the size of the displayed module</description>
+        </restriction>
+    </settings>
+
+    <error>
+        <eCode id="1">
+            <level>1</level>
+            <description>
+                Dies ist der erste eCode des Levels 1
+            </description>
+        </eCode>
+        <eCode id="2">
+            <level>2</level>
+            <description>
+                Dies ist der erste eCode des Levels 2
+            </description>
+        </eCode>
+        <eCode id="3">
+            <level>1</level>
+            <description>
+                Dies ist der zweite eCode des Levels 1
+            </description>
+        </eCode>
+        <eCode id="4">
+            <level>3</level>
+            <description>
+                Dies ist der erste eCode des Levels 3.
+            </description>
+        </eCode>
+    </error>
+
+    <include>
+        <file>include.php</file>
+    </include>
+
+    <com>
+        <case>
+            <id>1</id>
+            <description>switching the actuator on and off</description>
+        </case>
+        <case>
+            <id>2</id>
+            <description>switching the actuator active / inactive</description>
+        </case>
+        <case>
+            <id>3</id>
+            <description>add an group to the actuator</description>
+        </case>
+        <case>
+            <id>4</id>
+            <description>remove an actuator from a group</description>
+        </case>
+        <case>
+            <id>5</id>
+            <description>changing the room of the actuator</description>
+        </case>
+        <case>
+            <id>6</id>
+            <description>changing the room of the actuator</description>
+        </case>
+        <case>
+            <id>7</id>
+            <description>delete the actuator</description>
+        </case>
+    </com>
+
+</modul>

@@ -1,0 +1,258 @@
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5,
+.col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10,
+.col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3,
+.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
+.col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1,
+.col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7,
+.col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1,
+.col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7,
+.col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.own-table-btn {
+    float: right;
+}
+
+.btn-info,
+.btn-info:hover {
+    color: #FFF;
+    background-color: #34AADC;
+    border-color: #34AADC;
+}
+
+.btn-success:hover,
+.btn-success {
+    color: #FFF;
+    background-color: #4CD964;
+    border-color: #4CD964;
+}
+
+.btn-danger:hover,
+.btn-danger {
+    color: #FFF;
+    background-color: #FF2D55;
+    border-color: #FF2D55;
+}
+
+.own-padding {
+    padding: 5px;
+}
+
+.own-margin {
+    margin: 5px;
+}
+
+.own-right {
+    float: right;
+    /*float: inherit;*/
+    /*position: inherit;*/
+}
+
+.own-margin-top {
+    margin-top: 10px;
+}
+
+.own-margin-min-lr {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.own-padding-top {
+    padding-top: 20px;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.popup {
+    /*background-color:black;*/
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    /*height:100%;*/
+    /*margin: 0;*/
+    background: rgba(105, 105, 105, 0.9);
+    /*width: 100%;*/
+    /*float: left;*/
+    /*max-height: inherit;*/
+    /*opacity: 0.9;*/
+    mask-size: cover;
+    z-index: 90;
+}
+
+.rotate {
+    -moz-transform: rotate(90deg); /* Firefox 3.6 Firefox 4 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    -o-transform: rotate(90deg); /* Opera */
+    -ms-transform: rotate(90deg); /* IE9 */
+    transform: rotate(90deg); /* W3C */
+}
+
+.rerotate {
+    -moz-transform: rotate(-90deg); /* Firefox 3.6 Firefox 4 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    -o-transform: rotate(-90deg); /* Opera */
+    -ms-transform: rotate(-90deg); /* IE9 */
+    transform: rotate(-90deg); /* W3C */
+}
+
+.noopacity {
+    background: #ffffff;
+    opacity: 1;
+    z-index: 91;
+}
+
+.btn-info, .btn-info:hover,
+.btn-info:focus, .btn-info:active {
+    color: #FFF;
+    background-color: #34AADC;
+    border-color: #34AADC;
+}
+
+.info-box {
+    /*min-height: 100px;*/
+    /*margin-bottom: 30px;*/
+    /*padding: 20px;*/
+    width: 200px;
+    color: white;
+    -webkit-box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.35), 0 3px 1px -1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.35), 0 3px 1px -1px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.35), 0 3px 1px -1px rgba(0, 0, 0, 0.1);
+}
+/*Floating button*/
+
+.btn-floating {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    padding: 0;
+    background-color: #26a69a;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.btn-large {
+    height: 54px;
+    width: 54px;
+    line-height: 56px;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    will-change: opacity, transform;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.waves-effect .waves-ripple {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    -ms-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    pointer-events: none;
+}
+
+.waves-effect.waves-light .waves-ripple {
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+.waves-effect.waves-red .waves-ripple {
+    background-color: rgba(244, 67, 54, 0.7);
+}
+
+.waves-effect.waves-yellow .waves-ripple {
+    background-color: rgba(255, 235, 59, 0.7);
+}
+
+.waves-effect.waves-orange .waves-ripple {
+    background-color: rgba(255, 152, 0, 0.7);
+}
+
+.waves-effect.waves-purple .waves-ripple {
+    background-color: rgba(156, 39, 176, 0.7);
+}
+
+.waves-effect.waves-green .waves-ripple {
+    background-color: rgba(76, 175, 80, 0.7);
+}
+
+.waves-effect.waves-teal .waves-ripple {
+    background-color: rgba(0, 150, 136, 0.7);
+}
+
+.red {
+    background-color: #4CD964 !important;
+    /*background-color: #F44336 !important;*/
+}
+
+#own-main-content {
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+@media (max-width: 768px) {
+
+    #own-main-content {
+        margin: 0px !important;
+        position: none !important;
+    }
+}
+
+.own-opacity {
+    opacity: 0.6;
+}
+
+.own-cover-screen {
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}

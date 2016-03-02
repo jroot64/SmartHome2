@@ -1,0 +1,84 @@
+<modul>
+
+    <manifest>
+        <id></id>
+        <name>group</name>
+        <description>manages the grouping functions</description>
+        <targetClass>GroupWrapper.php</targetClass>
+
+        <settings>
+            <restriction>
+                <type>sg</type>
+                <description>Show the name of the group</description>
+            </restriction>
+            <restriction>
+                <type>cs</type>
+                <description>swishing the group on and off</description>
+            </restriction>
+            <restriction>
+                <type>dg</type>
+                <description>deleting the group</description>
+            </restriction>
+            <restriction>
+                <type>ag</type>
+                <description>adding a group</description>
+            </restriction>
+            <restriction>
+                <type>size</type>
+                <description>defining the size of the displayed module</description>
+            </restriction>
+        </settings>
+
+    </manifest>
+
+    <error>
+        <eCode id="1">
+            <level>1</level>
+            <description>
+                Dies ist der erste eCode des Levels 1
+            </description>
+        </eCode>
+        <eCode id="2">
+            <level>2</level>
+            <description>
+                Dies ist der erste eCode des Levels 2
+            </description>
+        </eCode>
+        <eCode id="3">
+            <level>1</level>
+            <description>
+                Dies ist der zweite eCode des Levels 1
+            </description>
+        </eCode>
+        <eCode id="4">
+            <level>3</level>
+            <description>
+                Dies ist der erste eCode des Levels 3.
+            </description>
+        </eCode>
+    </error>
+
+    <include>
+        <file>/modul/room/include.php</file>
+    </include>
+    <communication>
+        <file>/var/www/smart/modul/room/com.php</file>
+    </communication>
+    <javascript>
+        <file>modul/room/Room.js</file>
+    </javascript>
+
+
+    <com>
+        <case id="1">
+
+        </case>
+        <case id="2">
+
+        </case>
+        <case id="3">
+
+        </case>
+    </com>
+
+</modul>
