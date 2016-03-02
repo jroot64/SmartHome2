@@ -3,13 +3,13 @@
 Die Webapplikation SmartHome soll nach und nach Smarthome Funktionen zu beherschen.
 
 
-## Hardware Vorrausetzumg
+## Vorrausetzumg
 
 (evtl. sind Änderungen zum Betrieb nötig wenn andere Hardware verwendet wird)
 - Banana Pi oder ähnlichen Einplatinen Computer
 - Sendemodul
 - WiringPi
-- Rasperry-Remote (mit binär implementation)
+- Rasperry-Remote (mit binär implementation) oder https://github.com/jroot64/send
 
 
 ## Aktuelle Module
@@ -35,7 +35,3 @@ Das SmartHome lässt sich durch Module erweitern. Dazu werden die Funktionalen p
 include.php in einem Ordner unter modul eingefügt. Die com.php dient als Handler für Rückmeldungen durch das Modul
 vom Webinterface und steuert die Methoden zur Umsetzung der Aktionen an. Die include.php bindet
 die Funktionalen Klassen ein die in dem Modul enthalten sind. Die include.php wird beim Seitenaufruf dynamisch eingebunden.
-
-
-# Tasks
-- [ ] add errorCodes
