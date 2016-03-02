@@ -34,7 +34,7 @@ class DOM_id
 
         $id = $instance->genID();
 
-        return $id;
+        return 'id_' . $id;
     }
 
 

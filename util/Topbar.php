@@ -94,8 +94,8 @@ class Topbar
                             </div>
                         </div>";
 
-        EventHandler::newEvent($dowpDown2ID, "function(){ dropdownOpen('a') }", "mouseover");
-        EventHandler::newEvent($dropdownID, "function(){ dropdownClose('a') }", "mouseleave");
+        EventHandler::newEvent($dowpDown2ID, "function(){ dropdownOpen('". $dropdownID ."') }", "mouseover");
+        EventHandler::newEvent($dropdownID, "function(){ dropdownClose('". $dropdownID ."') }", "mouseleave");
 
         return $HTMLtext;
 

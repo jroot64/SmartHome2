@@ -11,7 +11,7 @@ require_once(__DIR__ . "/util/User.php");
 require_once(__DIR__ . "/util/Module.php");
 require_once(__DIR__ . "/util/Edittextfield.php");
 require_once(__DIR__ . "/util/Database.php");
-require_once(__DIR__ . "/util/Dom_id.php");
+require_once(__DIR__ . "/util/DOM_id.php");
 require_once(__DIR__ . "/util/Errorlist.php");
 require_once(__DIR__ . "/util/Error.php");
 require_once(__DIR__ . "/util/Panel.php");
